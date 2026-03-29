@@ -1,0 +1,28 @@
+node_modules/
+.DS_Store
+android/.idea/
+android/.gradle/
+android/build/
+android/app/build/
+*.iml
+local.properties
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.keystore
+*.jks

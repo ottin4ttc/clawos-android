@@ -1,0 +1,38 @@
+{
+  "name": "clawos-android-shell",
+  "version": "1.0.0",
+  "description": "A generic Android WebView shell with native WebSocket, notifications, barcode scanning, and background keep-alive.",
+  "main": "dist/plugins/index.js",
+  "types": "dist/plugins/index.d.ts",
+  "files": [
+    "dist/",
+    "src/plugins/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "sync": "npx cap sync android",
+    "open": "npx cap open android",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "capacitor",
+    "android",
+    "webview",
+    "shell",
+    "websocket",
+    "keep-alive",
+    "notification",
+    "barcode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.2.0",
+    "@capacitor/barcode-scanner": "^3.0.2",
+    "@capacitor/cli": "^8.2.0",
+    "@capacitor/core": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
